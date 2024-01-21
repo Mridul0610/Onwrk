@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    background-color: #E31E24;
+    height: 310px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.im img{
+    height: 27px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.carousel-inner img{
+    height: 310px;
+    width: 100%;
+}
+.carousel-item hr {
+    z-index: 999 !important;
+    height: 2px;
+}
+.adv{
+    padding-top: 40px;
+    text-align: center;
+}
+.adv img{
+    height: 60px;
+    /* margin-left: 100px; */
+    margin-top: 50px;
+
+}
+.logo{
+text-align: center;
+}
+.logo img{
+
+   display: inline-block;
+   margin: 20px;
+   height: 30px 10px 0 10px;
+}
+.create{
+    font-family: "Barlow", sans-serif ;
+    font-weight: 500;
+    margin: auto; 
+    text-align: center; 
+    font-size: 14px;
+}
+.advv{
+    height: 310px;
+}
+.save{
+   height: 310px; 
+}
+.follow{
+    height: 155px;
+    display: flex;
+    /* background-color: #9D9E9E; */
+}
+.follow img{
+    height: 155px;
+    width: 100%;
+
+}
+.us{
+    width: 10%;
+}
+.social{
+    background-color: #D9DADA;
+    width: 90%;
+}
+.social1{
+    /* height: 155px;    */
+    display: flex;   
+    justify-content: center;    
+    margin-top: 13%;
+    gap: 60px; 
+}
+.social i{
+    font-size: 24px;
+    color: rgb(30, 48, 80);
+
+}
+.follow p{
+    /* display: inline-block; */
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Barlow", sans-serif ;
+}
+.address{
+    background-color: #E8E8E8;
+    height: 155px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+    display: flex;
+    gap: 90px;
+}
+.item{
+    display: flex;
+    gap: 20px;
+}
+.item p{
+    margin-top: -6px;
+}
+.btn button {
+    width: 50px; /* Set the width and height to create a square button */
+    height: 50px;
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+    background-color: #C5C6C6;
+    text-align: center;
+    border: 3px solid white; /* Remove default button border */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+button p{
+    color: white;
+    font-family: "Barlow", sans-serif;
+}
+
